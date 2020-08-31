@@ -25,11 +25,11 @@ export class HeroesComponent implements OnInit {
     this.getHeroes();
   }
   // again, Hero type
-  onSelect(hero: Hero): void {
-    // inside function this.var
-    this.selectedHero = hero;
-    this.messageService.add(`HeroesComponent: Selected hero id=${hero.id}`);
-  }
+  // onSelect(hero: Hero): void {
+  //   // inside function this.var
+  //   this.selectedHero = hero;
+  //   this.messageService.add(`HeroesComponent: Selected hero id=${hero.id}`);
+  // }
   // getHeroes(): void {
   //   this.heroes = this.heroService.getHeroes();
   // }
